@@ -1,97 +1,98 @@
-# ACMMÐ­»áµÚÒ»ÖÜ½²×ù×Ü½á 
+# ACMMåä¼šç¬¬ä¸€å‘¨è®²åº§æ€»ç»“ 
+__by çŽ‹é€¸èˆŸ__
 
 ---
 
-## »ù±¾Óï¾ä
+## åŸºæœ¬è¯­å¥
 
-### Ìõ¼þÓï¾ä
+### æ¡ä»¶è¯­å¥
 
-- **if**Óï¾ä
+- **if**è¯­å¥
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
-if (±í´ïÊ½) Óï¾ä;
-else if (±í´ïÊ½) Óï¾ä;
-else Óï¾ä;
+if (è¡¨è¾¾å¼) è¯­å¥;
+else if (è¡¨è¾¾å¼) è¯­å¥;
+else è¯­å¥;
 ```
-- **switch**Óï¾ä
+- **switch**è¯­å¥
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
-switch(±í´ïÊ½){
-    case ³£Á¿±í´ïÊ½1:Óï¾ä1;break;
-    case ³£Á¿±í´ïÊ½2:Óï¾ä2;break;
-    ¡­
-    case ³£Á¿±í´ïÊ½n:Óï¾än;break;
-    default:Óï¾än+1;
+switch(è¡¨è¾¾å¼){
+    case å¸¸é‡è¡¨è¾¾å¼1:è¯­å¥1;break;
+    case å¸¸é‡è¡¨è¾¾å¼2:è¯­å¥2;break;
+    â€¦
+    case å¸¸é‡è¡¨è¾¾å¼n:è¯­å¥n;break;
+    default:è¯­å¥n+1;
 }
 ```
 
-Ìõ¼þÓï¾äµÄ×÷ÓÃ±ãÊÇÍ¨¹ý±í´ïÊ½½øÐÐÅÐ¶¨£¬Ñ¡ÔñËùÒªÖ´ÐÐµÄ´úÂë¿é£¨»òÊÇ·ñÒªÖ´ÐÐ´úÂë¿é£©¡£
+æ¡ä»¶è¯­å¥çš„ä½œç”¨ä¾¿æ˜¯é€šè¿‡è¡¨è¾¾å¼è¿›è¡Œåˆ¤å®šï¼Œé€‰æ‹©æ‰€è¦æ‰§è¡Œçš„ä»£ç å—ï¼ˆæˆ–æ˜¯å¦è¦æ‰§è¡Œä»£ç å—ï¼‰ã€‚
 
-### Ñ­»·Óï¾ä
+### å¾ªçŽ¯è¯­å¥
 
-- **for**Óï¾ä
+- **for**è¯­å¥
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
-for(³õÊ¼Óï¾ä;Ìõ¼þÓï¾ä;¿ØÖÆÓï¾ä){Ñ­»·Ìå;}
+for(åˆå§‹è¯­å¥;æ¡ä»¶è¯­å¥;æŽ§åˆ¶è¯­å¥){å¾ªçŽ¯ä½“;}
 ```
-- **while**Óï¾ä
+- **while**è¯­å¥
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
-while(Ìõ¼þ){Óï¾ä;}
+while(æ¡ä»¶){è¯­å¥;}
 ```
 
-- **do-while**Óï¾ä
+- **do-while**è¯­å¥
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
 do{
-    Óï¾ä;
-}while(Ìõ¼þ);
+    è¯­å¥;
+}while(æ¡ä»¶);
 ```
 
-whileÓï¾äºÍdo-whileÓï¾äµÄÇø±ð±ãÔÚÓÚwhileÓï¾äÏÈÅÐ¶ÏÌõ¼þ¾ö¶¨ÊÇ·ñ½øÈëÑ­»·Ìå£¬¶ødo-whileÓï¾äÔòÊÇÏÈÔËÐÐÑ­»·ÌåÔÙÍ¨¹ýÌõ¼þÅÐ¶ÏÊÇ·ñÌø³ö¡£
+whileè¯­å¥å’Œdo-whileè¯­å¥çš„åŒºåˆ«ä¾¿åœ¨äºŽwhileè¯­å¥å…ˆåˆ¤æ–­æ¡ä»¶å†³å®šæ˜¯å¦è¿›å…¥å¾ªçŽ¯ä½“ï¼Œè€Œdo-whileè¯­å¥åˆ™æ˜¯å…ˆè¿è¡Œå¾ªçŽ¯ä½“å†é€šè¿‡æ¡ä»¶åˆ¤æ–­æ˜¯å¦è·³å‡ºã€‚
 
-## Î»ÔËËã
+## ä½è¿ç®—
 
-- »ò£¨**|**£©ÔËËã
+- æˆ–ï¼ˆ**|**ï¼‰è¿ç®—
 
-ÔËËã·¨Ôò£º
+è¿ç®—æ³•åˆ™ï¼š
 ```C++
 x = 1|3;//x == 3
 ```
-ÒòÎª1µÄ¶þ½øÖÆ±í´ïÎª![](http://latex.codecogs.com/gif.latex?~0001~)£¬3µÄ¶þ½øÖÆ±í´ïÎª![](http://latex.codecogs.com/gif.latex?~0011~)¡£ÆäÖÐ»òÔËËã±íÊ¾£¬ÈôÓÐÒ»¸öÊýÔÚµ±Ç°Î»Îª![](http://latex.codecogs.com/gif.latex?~1~)£¬Ôòµ±Ç°Î»Îª![](http://latex.codecogs.com/gif.latex?~1~)¡£
-ÒÔ´ËÀàÍÆ£º 
+å› ä¸º1çš„äºŒè¿›åˆ¶è¡¨è¾¾ä¸º![](http://latex.codecogs.com/gif.latex?~0001~)ï¼Œ3çš„äºŒè¿›åˆ¶è¡¨è¾¾ä¸º![](http://latex.codecogs.com/gif.latex?~0011~)ã€‚å…¶ä¸­æˆ–è¿ç®—è¡¨ç¤ºï¼Œè‹¥æœ‰ä¸€ä¸ªæ•°åœ¨å½“å‰ä½ä¸º![](http://latex.codecogs.com/gif.latex?~1~)ï¼Œåˆ™å½“å‰ä½ä¸º![](http://latex.codecogs.com/gif.latex?~1~)ã€‚
+ä»¥æ­¤ç±»æŽ¨ï¼š 
 
 ![](http://latex.codecogs.com/gif.latex?~2|1=3~)
 
 ![](http://latex.codecogs.com/gif.latex?0010~|~0001~=~0011)
 
-- Óë£¨**&**£©ÔËËã
+- ä¸Žï¼ˆ**&**ï¼‰è¿ç®—
 
-ÔËËã·¨Ôò£º
+è¿ç®—æ³•åˆ™ï¼š
 ```C++
 x = 1&3;//x == 1
 ```
 ![](http://latex.codecogs.com/gif.latex?0001~\\&~0011~=~0001)
 
-ÓëÔËËã±íÊ¾£¬ÈôÁ½¸öÊýÔÚµ±Ç°Î»¶¼Îª![](http://latex.codecogs.com/gif.latex?~1~)£¬Ôòµ±Ç°Î»Îª![](http://latex.codecogs.com/gif.latex?~1~)£¬·ñÔòÎª![](http://latex.codecogs.com/gif.latex?~0~)¡£
+ä¸Žè¿ç®—è¡¨ç¤ºï¼Œè‹¥ä¸¤ä¸ªæ•°åœ¨å½“å‰ä½éƒ½ä¸º![](http://latex.codecogs.com/gif.latex?~1~)ï¼Œåˆ™å½“å‰ä½ä¸º![](http://latex.codecogs.com/gif.latex?~1~)ï¼Œå¦åˆ™ä¸º![](http://latex.codecogs.com/gif.latex?~0~)ã€‚
 
-- Òì»ò£¨**^**£©ÔËËã
+- å¼‚æˆ–ï¼ˆ**^**ï¼‰è¿ç®—
 
-ÔËËã·¨Ôò£º
+è¿ç®—æ³•åˆ™ï¼š
 ```C++
 x = 1^3;//x == 2
 ```
 ![](http://latex.codecogs.com/gif.latex?0001~^\\wedge~~0011~=~0010)
-Òì»òÔËËã±íÊ¾£¬ÈôÁ½¸öÊýÔÚµ±Ç°Î»µÄÊý×Ö²»ÏàÍ¬£¬Ôòµ±Ç°Î»Îª![](http://latex.codecogs.com/gif.latex?~1~)£¬·ñÔòÎª![](http://latex.codecogs.com/gif.latex?~0~)¡£
+å¼‚æˆ–è¿ç®—è¡¨ç¤ºï¼Œè‹¥ä¸¤ä¸ªæ•°åœ¨å½“å‰ä½çš„æ•°å­—ä¸ç›¸åŒï¼Œåˆ™å½“å‰ä½ä¸º![](http://latex.codecogs.com/gif.latex?~1~)ï¼Œå¦åˆ™ä¸º![](http://latex.codecogs.com/gif.latex?~0~)ã€‚
 
-Î»ÔËËãÔÚËã·¨¾ºÈüÖÐ½ÏÎª³£ÓÃ£¬ÒòÎªËü¿ÉÒÔ½ÚÊ¡´óÁ¿µÄÔËËãÊ±¼ä¡£
+ä½è¿ç®—åœ¨ç®—æ³•ç«žèµ›ä¸­è¾ƒä¸ºå¸¸ç”¨ï¼Œå› ä¸ºå®ƒå¯ä»¥èŠ‚çœå¤§é‡çš„è¿ç®—æ—¶é—´ã€‚
 
-±ÈÈçÎÒÃÇ¿ÉÒÔÓÃÏÂ·½´úÂë½»»»Á½¸öÊý
+æ¯”å¦‚æˆ‘ä»¬å¯ä»¥ç”¨ä¸‹æ–¹ä»£ç äº¤æ¢ä¸¤ä¸ªæ•°
 
 ```C++
 int a=10,b=12; //a=1010,b=1100; 
@@ -100,19 +101,19 @@ b=a^b; //a=0110,b=1010;
 a=a^b; //a=1100;b=1010; 
 ```
 
-## Êý×é
+## æ•°ç»„
 
-> ¼òµ¥¶¨Òå£º
-> Êý×é£¨array£©ÓÉÒ»ÏµÁÐÀàÐÍÏàÍ¬µÄÔªËØ¹¹³É
+> ç®€å•å®šä¹‰ï¼š
+> æ•°ç»„ï¼ˆarrayï¼‰ç”±ä¸€ç³»åˆ—ç±»åž‹ç›¸åŒçš„å…ƒç´ æž„æˆ
 
-½á¹¹£º
+ç»“æž„ï¼š
 ```C++
-ÀàÐÍËµÃ÷·û Êý×éÃû [³£Á¿±í´ïÊ½];
+ç±»åž‹è¯´æ˜Žç¬¦ æ•°ç»„å [å¸¸é‡è¡¨è¾¾å¼];
 ```
 
-## Ê±¿Õ¸´ÔÓ¶È
+## æ—¶ç©ºå¤æ‚åº¦
 
-### ¿Õ¼ä¸´ÔÓ¶È
+### ç©ºé—´å¤æ‚åº¦
 ![](http://latex.codecogs.com/gif.latex?~1mb=1024kb~)
 
 ![](http://latex.codecogs.com/gif.latex?~1kb=1024b~)
@@ -123,55 +124,55 @@ a=a^b; //a=1100;b=1010;
 
 ![](http://latex.codecogs.com/gif.latex?~double=8b~)
 
-Í¨¹ý¼òÒª¼ÆËã³ÌÐòÖÐËùÊ¹ÓÃµÄ±äÁ¿ÊýÒÔ¼°±äÁ¿´óÐ¡¿ÉÒÔ´óÖÂËã³ö³ÌÐòÒªÊ¹ÓÃ¶àÉÙÄÚ´æ¡£Ò»°ãÖ»ÐèÒª´ÖÂÔ¹À¼ÆÄÚ´æÊ¹ÓÃÁ¿£¬·ûºÏÌâÄ¿ÒªÇó¼´¿É¡£
+é€šè¿‡ç®€è¦è®¡ç®—ç¨‹åºä¸­æ‰€ä½¿ç”¨çš„å˜é‡æ•°ä»¥åŠå˜é‡å¤§å°å¯ä»¥å¤§è‡´ç®—å‡ºç¨‹åºè¦ä½¿ç”¨å¤šå°‘å†…å­˜ã€‚ä¸€èˆ¬åªéœ€è¦ç²—ç•¥ä¼°è®¡å†…å­˜ä½¿ç”¨é‡ï¼Œç¬¦åˆé¢˜ç›®è¦æ±‚å³å¯ã€‚
 
 
-### Ê±¼ä¸´ÔÓ¶È
+### æ—¶é—´å¤æ‚åº¦
 
-´óÖÂ¹ÀËã£º
+å¤§è‡´ä¼°ç®—ï¼š
 
-Ö±½Ó²âÁ¿³ÌÐòÔËÐÐÊ±¼ä£»
+ç›´æŽ¥æµ‹é‡ç¨‹åºè¿è¡Œæ—¶é—´ï¼›
 
-Í¨¹ý½«³ÌÐòÖÐµÄÃ¿²ãÑ­»·µÄ¸´ÔÓ¶ÈÏà³Ë£¬µÃµ½´óÖÂ¸´ÔÓ¶È£»
+é€šè¿‡å°†ç¨‹åºä¸­çš„æ¯å±‚å¾ªçŽ¯çš„å¤æ‚åº¦ç›¸ä¹˜ï¼Œå¾—åˆ°å¤§è‡´å¤æ‚åº¦ï¼›
 
-Ö÷¶¨Àí£º
+ä¸»å®šç†ï¼š
 
-> Éè![](http://latex.codecogs.com/gif.latex?a~\\geq%201)ºÍ![](http://latex.codecogs.com/gif.latex?b~\\gt%201)Îª³£Êý£¬Éè![](http://latex.codecogs.com/gif.latex?f(n))ÎªÒ»º¯Êý£¬![](http://latex.codecogs.com/gif.latex?T(n))ÓÉµÝ¹éÊ½  
+> è®¾![](http://latex.codecogs.com/gif.latex?a~\\geq%201)å’Œ![](http://latex.codecogs.com/gif.latex?b~\\gt%201)ä¸ºå¸¸æ•°ï¼Œè®¾![](http://latex.codecogs.com/gif.latex?f(n))ä¸ºä¸€å‡½æ•°ï¼Œ![](http://latex.codecogs.com/gif.latex?T(n))ç”±é€’å½’å¼  
  ![](http://latex.codecogs.com/gif.latex?T(n)~=~aT(\\frac%20{n}{b})~+~f(n))  
- ÆäÖÐ![](http://latex.codecogs.com/gif.latex?\\frac%20{n}{b})Ö¸![](http://latex.codecogs.com/gif.latex?\\lceil%20\\frac%20{n}{b}\\rceil%20)ºÍ![](http://latex.codecogs.com/gif.latex?\\lfloor%20\\frac%20{n}{b}\\rfloor%20)£¬¿ÉÒÔÖ¤Ã÷£¬ÂÔÈ¥ÉÏÏÂÈ¥Õû²»»á¶Ô½á¹ûÔì³ÉÓ°Ïì¡£ÄÇÃ´![](http://latex.codecogs.com/gif.latex?T(n))¿ÉÄÜÓÐÈçÏÂµÄ½¥½ø½ç  
- (1)Èô![](http://latex.codecogs.com/gif.latex?f(n)~\\lt%20~n^\\log%20{}\\frac%20{n}{b})£¬ÇÒÊÇ¶àÏîÊ½µÄÐ¡ÓÚ¡£¼´  
- ![](http://latex.codecogs.com/gif.latex?\\exists%20\\varepsilon%20\\gt%200)£¬ÓÐ![](http://latex.codecogs.com/gif.latex?f(n)~=~O(n^\\log%20{}\\frac%20{n}{b}-\\varepsilon%20))£¬Ôò![](http://latex.codecogs.com/gif.latex?T(n)~=~\\Theta%20\\left%20(n^\\log%20{}\\frac%20{n}{b}\\right%20))  
- (2)Èô![](http://latex.codecogs.com/gif.latex?f(n)~=~n^\\log%20{}\\frac%20{n}{b})£¬Ôò![](http://latex.codecogs.com/gif.latex?T(n)~=~\\Theta%20\\left((\\log%20n)~n^\\log%20{}\\frac%20{n}{b}\\right%20))  
- (3)Èô![](http://latex.codecogs.com/gif.latex?f(n)~\\gt%20~n^\\log%20{}\\frac%20{n}{b})£¬ÇÒÊÇ¶àÏîÊ½µÄ´óÓÚ¡£¼´  
- ![](http://latex.codecogs.com/gif.latex?\\exists%20\\varepsilon%20\\gt%200)£¬ÓÐ![](http://latex.codecogs.com/gif.latex?f(n)~=~\\Omega%20\\left(n^\\log%20{}\\frac%20{n}{b}+\\varepsilon%20\\right))£¬ÇÒ¶Ô![](http://latex.codecogs.com/gif.latex?\\forall%20~c\\lt%201)ÓëËùÓÐ×ã¹»´óµÄ![](http://latex.codecogs.com/gif.latex?n)£¬  
-ÓÐ![](http://latex.codecogs.com/gif.latex?af(\\frac%20{n}{b})\\leq%20cf(n))£¬Ôò![](http://latex.codecogs.com/gif.latex?T(n)=\\Theta%20\\bigl%20(f(n)\\bigr%20))
+ å…¶ä¸­![](http://latex.codecogs.com/gif.latex?\\frac%20{n}{b})æŒ‡![](http://latex.codecogs.com/gif.latex?\\lceil%20\\frac%20{n}{b}\\rceil%20)å’Œ![](http://latex.codecogs.com/gif.latex?\\lfloor%20\\frac%20{n}{b}\\rfloor%20)ï¼Œå¯ä»¥è¯æ˜Žï¼Œç•¥åŽ»ä¸Šä¸‹åŽ»æ•´ä¸ä¼šå¯¹ç»“æžœé€ æˆå½±å“ã€‚é‚£ä¹ˆ![](http://latex.codecogs.com/gif.latex?T(n))å¯èƒ½æœ‰å¦‚ä¸‹çš„æ¸è¿›ç•Œ  
+ (1)è‹¥![](http://latex.codecogs.com/gif.latex?f(n)~\\lt%20~n^\\log%20{}\\frac%20{n}{b})ï¼Œä¸”æ˜¯å¤šé¡¹å¼çš„å°äºŽã€‚å³  
+ ![](http://latex.codecogs.com/gif.latex?\\exists%20\\varepsilon%20\\gt%200)ï¼Œæœ‰![](http://latex.codecogs.com/gif.latex?f(n)~=~O(n^\\log%20{}\\frac%20{n}{b}-\\varepsilon%20))ï¼Œåˆ™![](http://latex.codecogs.com/gif.latex?T(n)~=~\\Theta%20\\left%20(n^\\log%20{}\\frac%20{n}{b}\\right%20))  
+ (2)è‹¥![](http://latex.codecogs.com/gif.latex?f(n)~=~n^\\log%20{}\\frac%20{n}{b})ï¼Œåˆ™![](http://latex.codecogs.com/gif.latex?T(n)~=~\\Theta%20\\left((\\log%20n)~n^\\log%20{}\\frac%20{n}{b}\\right%20))  
+ (3)è‹¥![](http://latex.codecogs.com/gif.latex?f(n)~\\gt%20~n^\\log%20{}\\frac%20{n}{b})ï¼Œä¸”æ˜¯å¤šé¡¹å¼çš„å¤§äºŽã€‚å³  
+ ![](http://latex.codecogs.com/gif.latex?\\exists%20\\varepsilon%20\\gt%200)ï¼Œæœ‰![](http://latex.codecogs.com/gif.latex?f(n)~=~\\Omega%20\\left(n^\\log%20{}\\frac%20{n}{b}+\\varepsilon%20\\right))ï¼Œä¸”å¯¹![](http://latex.codecogs.com/gif.latex?\\forall%20~c\\lt%201)ä¸Žæ‰€æœ‰è¶³å¤Ÿå¤§çš„![](http://latex.codecogs.com/gif.latex?n)ï¼Œ  
+æœ‰![](http://latex.codecogs.com/gif.latex?af(\\frac%20{n}{b})\\leq%20cf(n))ï¼Œåˆ™![](http://latex.codecogs.com/gif.latex?T(n)=\\Theta%20\\bigl%20(f(n)\\bigr%20))
 
-¹ØÓÚÊ±¼ä¸´ÔÓ¶È»áÔÚÀëÉ¢¿Î³ÌÖÐ½²µ½
+å…³äºŽæ—¶é—´å¤æ‚åº¦ä¼šåœ¨ç¦»æ•£è¯¾ç¨‹ä¸­è®²åˆ°
 
-## µÝÍÆÓëµÝ¹é
+## é€’æŽ¨ä¸Žé€’å½’
 
-### µÝÍÆ
+### é€’æŽ¨
 
-¶¨Òå£º
-µÝÍÆËã·¨ÊÇÒ»ÖÖÓÃÈô¸É²½¿ÉÖØ¸´ÔËËãÀ´ÃèÊö¸´ÔÓÎÊÌâµÄ·½·¨¡£
-µÝÍÆÊÇÐòÁÐ¼ÆËãÖÐµÄÒ»ÖÖ³£ÓÃËã·¨¡£Í¨³£ÊÇÍ¨¹ý¼ÆËã»úÇ°ÃæµÄÒ»Ð©ÏîÀ´µÃ³öÐòÁÐÖÐµÄÖ¸¶¨ÏîµÄÖµ
+å®šä¹‰ï¼š
+é€’æŽ¨ç®—æ³•æ˜¯ä¸€ç§ç”¨è‹¥å¹²æ­¥å¯é‡å¤è¿ç®—æ¥æè¿°å¤æ‚é—®é¢˜çš„æ–¹æ³•ã€‚
+é€’æŽ¨æ˜¯åºåˆ—è®¡ç®—ä¸­çš„ä¸€ç§å¸¸ç”¨ç®—æ³•ã€‚é€šå¸¸æ˜¯é€šè¿‡è®¡ç®—æœºå‰é¢çš„ä¸€äº›é¡¹æ¥å¾—å‡ºåºåˆ—ä¸­çš„æŒ‡å®šé¡¹çš„å€¼
 
-#### ì³²¨ÄÇÆõÊýÁÐ
+#### æ–æ³¢é‚£å¥‘æ•°åˆ—
 
->ÀýÌâ£º
-ì³²¨ÄÇÆõÊýÁÐ¶¨ÒåÎª£º
+>ä¾‹é¢˜ï¼š
+æ–æ³¢é‚£å¥‘æ•°åˆ—å®šä¹‰ä¸ºï¼š
 ![](http://latex.codecogs.com/gif.latex?F(0)=0,~F(1)=1,~F(n)=F(n-1)+F(n-2)~~~~~(n\\geqslant%202,n\\in%20N^+)~)
-Çó½âì³²¨ÄÇÆõÊýÁÐµÚ![](http://latex.codecogs.com/gif.latex?n)Ïî¡£
+æ±‚è§£æ–æ³¢é‚£å¥‘æ•°åˆ—ç¬¬![](http://latex.codecogs.com/gif.latex?n)é¡¹ã€‚
 
-> ÊäÈë£º
+> è¾“å…¥ï¼š
 
-> Ò»¸ö·Ç¸ºÕûÊý![](http://latex.codecogs.com/gif.latex?n)¡£
+> ä¸€ä¸ªéžè´Ÿæ•´æ•°![](http://latex.codecogs.com/gif.latex?n)ã€‚
 
-> Êä³ö£º
+> è¾“å‡ºï¼š
 
-> ì³²¨ÄÇÆõÊýÁÐµÚ![](http://latex.codecogs.com/gif.latex?n)Ïî¡£
+> æ–æ³¢é‚£å¥‘æ•°åˆ—ç¬¬![](http://latex.codecogs.com/gif.latex?n)é¡¹ã€‚
 
-Ê¾Àý´úÂë£º
+ç¤ºä¾‹ä»£ç ï¼š
 ```C++
 #include<cstdio>
 using namespace std;
@@ -184,16 +185,16 @@ int main() {
     printf("%d\n",fib[n]);
 }
 ```
-ÕâÀïÎÒÃÇ³ä·ÖÀûÓÃÁË¶¨ÒåÒÔ¼°µÝÍÆµÄË¼Ïë£¬ÓÃÒÑÖªµÄ&F(0)&Óë&F(1)&£¬½«Ç°Ò»°ÙÏî¾ùÍÆ³öÀ´£¬ÔÙÊä³öÎÒÃÇÏëÇóµÄÏîµÄÖµ¡£
+è¿™é‡Œæˆ‘ä»¬å……åˆ†åˆ©ç”¨äº†å®šä¹‰ä»¥åŠé€’æŽ¨çš„æ€æƒ³ï¼Œç”¨å·²çŸ¥çš„&F(0)&ä¸Ž&F(1)&ï¼Œå°†å‰ä¸€ç™¾é¡¹å‡æŽ¨å‡ºæ¥ï¼Œå†è¾“å‡ºæˆ‘ä»¬æƒ³æ±‚çš„é¡¹çš„å€¼ã€‚
 
-### µÝ¹é
+### é€’å½’
 
-¶¨Òå£º
-³ÌÐòµ÷ÓÃ×ÔÉíµÄ±à³Ì¼¼ÇÉ³ÆÎªµÝ¹é£¬Í¨³£°ÑÒ»¸ö´óÐÍ¸´ÔÓµÄÎÊÌâ²ã²ã×ª»¯ÎªÒ»¸öÓëÔ­ÎÊÌâÏàËÆµÄ¹æÄ£½ÏÐ¡µÄÎÊÌâÀ´Çó½â¡£
+å®šä¹‰ï¼š
+ç¨‹åºè°ƒç”¨è‡ªèº«çš„ç¼–ç¨‹æŠ€å·§ç§°ä¸ºé€’å½’ï¼Œé€šå¸¸æŠŠä¸€ä¸ªå¤§åž‹å¤æ‚çš„é—®é¢˜å±‚å±‚è½¬åŒ–ä¸ºä¸€ä¸ªä¸ŽåŽŸé—®é¢˜ç›¸ä¼¼çš„è§„æ¨¡è¾ƒå°çš„é—®é¢˜æ¥æ±‚è§£ã€‚
 
-#### ì³²¨ÄÇÆõÊýÁÐ
+#### æ–æ³¢é‚£å¥‘æ•°åˆ—
 
-µÝ¹éºÍµÝÍÆËäÈ»¿´ÆðÀ´²î²»¶à£¬µ«ÊÇÆä±¾ÖÊ²¢²»ÏàÍ¬£¬ÎÒÃÇ¿ÉÒÔ¿´Ò»ÏÂÉÏÃæµÄì³²¨ÄÇÆõÊýÁÐµÄµÝ¹éÐÎÊ½±í´ï¡£
+é€’å½’å’Œé€’æŽ¨è™½ç„¶çœ‹èµ·æ¥å·®ä¸å¤šï¼Œä½†æ˜¯å…¶æœ¬è´¨å¹¶ä¸ç›¸åŒï¼Œæˆ‘ä»¬å¯ä»¥çœ‹ä¸€ä¸‹ä¸Šé¢çš„æ–æ³¢é‚£å¥‘æ•°åˆ—çš„é€’å½’å½¢å¼è¡¨è¾¾ã€‚
 
 ```C++
 int fib(int n)
@@ -202,47 +203,47 @@ int fib(int n)
     else return fib(n-1)+fib(n-2);
 }
 ```
-ÕâÀïÎÒÃÇÔòÊÇ°Ñ![](http://latex.codecogs.com/gif.latex?F(n))Õâ¸ö´óÎÊÌâ»¯ÎªÁË![](http://latex.codecogs.com/gif.latex?F(n-1)+F(n-2))ÕâÑù¸üÐ¡µÄÎÊÌâ£¬Ò»²½²½°Ñ´óÎÊÌâ»¯ÎªÐ¡ÎÊÌâÖ±ÖÁÎÒÃÇÄÜ¹»Çó³öÎªÖ¹¡£
+è¿™é‡Œæˆ‘ä»¬åˆ™æ˜¯æŠŠ![](http://latex.codecogs.com/gif.latex?F(n))è¿™ä¸ªå¤§é—®é¢˜åŒ–ä¸ºäº†![](http://latex.codecogs.com/gif.latex?F(n-1)+F(n-2))è¿™æ ·æ›´å°çš„é—®é¢˜ï¼Œä¸€æ­¥æ­¥æŠŠå¤§é—®é¢˜åŒ–ä¸ºå°é—®é¢˜ç›´è‡³æˆ‘ä»¬èƒ½å¤Ÿæ±‚å‡ºä¸ºæ­¢ã€‚
 
-#### ººÅµËþÎÊÌâ
+#### æ±‰è¯ºå¡”é—®é¢˜
 
->ÓÐÈý¸ùÏàÁÚµÄÖù×Ó£¬±êºÅÎªA,B,C£¬AÖù×ÓÉÏ´ÓÏÂµ½ÉÏ°´½ð×ÖËþ×´µþ·Å×Å![](http://latex.codecogs.com/gif.latex?n)¸ö²»Í¬´óÐ¡µÄÔ²ÅÌ£¬Òª°ÑËùÓÐÅÌ×ÓÒ»¸öÒ»¸öÒÆ¶¯µ½Öù×ÓBÉÏ£¬²¢ÇÒÃ¿´ÎÒÆ¶¯Í¬Ò»¸ùÖù×ÓÉÏ¶¼²»ÄÜ³öÏÖ´óÅÌ×ÓÔÚÐ¡ÅÌ×ÓÉÏ·½£¬ÇëÎÊÖÁÉÙÐèÒª¶àÉÙ´ÎÒÆ¶¯¡£
+>æœ‰ä¸‰æ ¹ç›¸é‚»çš„æŸ±å­ï¼Œæ ‡å·ä¸ºA,B,Cï¼ŒAæŸ±å­ä¸Šä»Žä¸‹åˆ°ä¸ŠæŒ‰é‡‘å­—å¡”çŠ¶å æ”¾ç€![](http://latex.codecogs.com/gif.latex?n)ä¸ªä¸åŒå¤§å°çš„åœ†ç›˜ï¼Œè¦æŠŠæ‰€æœ‰ç›˜å­ä¸€ä¸ªä¸€ä¸ªç§»åŠ¨åˆ°æŸ±å­Bä¸Šï¼Œå¹¶ä¸”æ¯æ¬¡ç§»åŠ¨åŒä¸€æ ¹æŸ±å­ä¸Šéƒ½ä¸èƒ½å‡ºçŽ°å¤§ç›˜å­åœ¨å°ç›˜å­ä¸Šæ–¹ï¼Œè¯·é—®è‡³å°‘éœ€è¦å¤šå°‘æ¬¡ç§»åŠ¨ã€‚
 
->ÊäÈë
+>è¾“å…¥
 
->Ô²ÅÌ¸öÊý![](http://latex.codecogs.com/gif.latex?n)¡£
+>åœ†ç›˜ä¸ªæ•°![](http://latex.codecogs.com/gif.latex?n)ã€‚
 
->Êä³ö
+>è¾“å‡º
 
->ººÅµËþÒÆ¶¯¹ý³Ì
+>æ±‰è¯ºå¡”ç§»åŠ¨è¿‡ç¨‹
 
-Ê¾Àý´úÂë£º
+ç¤ºä¾‹ä»£ç ï¼š
 
 ```C++
 #include<cstdio>
 using namespace std;
 void hanoi(int x,int A,int B){
-//x±íÊ¾ËùÊ£Ô²ÅÌÊýÁ¿ ,A±íÊ¾°ÑÅÌ×Ó´ÓÄÄ¸öÎ»ÖÃ£¨ÕâÀïÎÒÃÇ¼ÙÉèÎªpÎ»ÖÃ£©£¬B±íÊ¾ÒÆµ½ÄÄ¸öÎ»ÖÃ£¨ÕâÀïÎÒÃÇ¼ÙÉèÎªqÎ»ÖÃ£©¡£
+//xè¡¨ç¤ºæ‰€å‰©åœ†ç›˜æ•°é‡ ,Aè¡¨ç¤ºæŠŠç›˜å­ä»Žå“ªä¸ªä½ç½®ï¼ˆè¿™é‡Œæˆ‘ä»¬å‡è®¾ä¸ºpä½ç½®ï¼‰ï¼ŒBè¡¨ç¤ºç§»åˆ°å“ªä¸ªä½ç½®ï¼ˆè¿™é‡Œæˆ‘ä»¬å‡è®¾ä¸ºqä½ç½®ï¼‰ã€‚
     if (!x) return;
-    //Èç¹ûx==0£¬¼´Ã»ÓÐÔ²ÅÌÐèÒªÒÆ¶¯Ê±£¬²»ÔÙÔËÐÐÏÂÃæÄÚÈÝ
+    //å¦‚æžœx==0ï¼Œå³æ²¡æœ‰åœ†ç›˜éœ€è¦ç§»åŠ¨æ—¶ï¼Œä¸å†è¿è¡Œä¸‹é¢å†…å®¹
     hanoi(x-1,A,3-A-B);
-    //°ÑpÉÏn-1¸öÔ²ÅÌÒÆ¶¯µ½³ýp£¬qÒÔÍâµÄÄÇ¸öÎ»ÖÃ£¨ÎÒÃÇ¼ÙÉè¸ÃÎ»ÖÃÎªm£©
+    //æŠŠpä¸Šn-1ä¸ªåœ†ç›˜ç§»åŠ¨åˆ°é™¤pï¼Œqä»¥å¤–çš„é‚£ä¸ªä½ç½®ï¼ˆæˆ‘ä»¬å‡è®¾è¯¥ä½ç½®ä¸ºmï¼‰
     printf("%d:%c->%c\n",x,'A'+A,'A'+B);
-    //µ±pÉÏµÄn-1¸öÔ²ÅÌ¾ùÒÆ¶¯µ½ÁËm(ÉÏÒ»²½Íê³Éºó)£¬Êä³ö°Ñµ±Ç°pÉÏ½ö´æµÄÄÇ¸öÔ²ÅÌÒÆ¶¯µ½qµÄ²Ù×÷
+    //å½“pä¸Šçš„n-1ä¸ªåœ†ç›˜å‡ç§»åŠ¨åˆ°äº†m(ä¸Šä¸€æ­¥å®ŒæˆåŽ)ï¼Œè¾“å‡ºæŠŠå½“å‰pä¸Šä»…å­˜çš„é‚£ä¸ªåœ†ç›˜ç§»åŠ¨åˆ°qçš„æ“ä½œ
     hanoi(x-1,3-A-B,B);
-    //°ÑmÉÏn-1¸öÅÌ×ÓÒÆ¶¯µ½q
-    //µ±n=1Ê±£¬Á½ÌõµÝ¹éÓï¾ä¶¼²»»áÖ´ÐÐÓÐÐ§ÄÚÈÝ£¬Êä³öÓï¾ä»áÊä³ö°Ñ×îºóÒ»¸öÔ²ÅÌ´ÓpÒÆ¶¯µ½qµÄ²Ù×÷
+    //æŠŠmä¸Šn-1ä¸ªç›˜å­ç§»åŠ¨åˆ°q
+    //å½“n=1æ—¶ï¼Œä¸¤æ¡é€’å½’è¯­å¥éƒ½ä¸ä¼šæ‰§è¡Œæœ‰æ•ˆå†…å®¹ï¼Œè¾“å‡ºè¯­å¥ä¼šè¾“å‡ºæŠŠæœ€åŽä¸€ä¸ªåœ†ç›˜ä»Žpç§»åŠ¨åˆ°qçš„æ“ä½œ
 }
 int main() {
     int n;
     scanf("%d",&n);
     hanoi(n,0,1);
-    //ÕâÀï0 1´ú±í´ÓAÒÆµ½B£¬'A'+0='A','A'+1='B'
+    //è¿™é‡Œ0 1ä»£è¡¨ä»ŽAç§»åˆ°Bï¼Œ'A'+0='A','A'+1='B'
 }
 ```
-ººÅµËþÎÊÌâµÄµÝ¹é½â·¨±ãÊÇ½«°ÑAÉÏ![](http://latex.codecogs.com/gif.latex?n)¸öÔ²ÅÌÒÆ¶¯µ½BµÄÎÊÌâ»¯Îª°ÑAÉÏ![](http://latex.codecogs.com/gif.latex?n-1)¸öÔ²ÅÌÒÆ¶¯µ½C£¬ÔÙ°ÑAÉÏ×î´óµÄÔ²ÅÌÒÆ¶¯µ½B£¬×îºó°ÑCÉÏ![](http://latex.codecogs.com/gif.latex?n-1)¸öÔ²ÅÌÒÆ¶¯µ½BµÄÎÊÌâ¡£
+æ±‰è¯ºå¡”é—®é¢˜çš„é€’å½’è§£æ³•ä¾¿æ˜¯å°†æŠŠAä¸Š![](http://latex.codecogs.com/gif.latex?n)ä¸ªåœ†ç›˜ç§»åŠ¨åˆ°Bçš„é—®é¢˜åŒ–ä¸ºæŠŠAä¸Š![](http://latex.codecogs.com/gif.latex?n-1)ä¸ªåœ†ç›˜ç§»åŠ¨åˆ°Cï¼Œå†æŠŠAä¸Šæœ€å¤§çš„åœ†ç›˜ç§»åŠ¨åˆ°Bï¼Œæœ€åŽæŠŠCä¸Š![](http://latex.codecogs.com/gif.latex?n-1)ä¸ªåœ†ç›˜ç§»åŠ¨åˆ°Bçš„é—®é¢˜ã€‚
 
-¹ØÓÚººÅµËþÎÊÌâ×îÓÅ½â²½ÊýÎÒÃÇ»¹¿ÉÒÔÍ¨¹ýÏÂ·½µÄÊýÑ§ÊýÑ§¹«Ê½£º
+å…³äºŽæ±‰è¯ºå¡”é—®é¢˜æœ€ä¼˜è§£æ­¥æ•°æˆ‘ä»¬è¿˜å¯ä»¥é€šè¿‡ä¸‹æ–¹çš„æ•°å­¦æ•°å­¦å…¬å¼ï¼š
 
 ![](http://latex.codecogs.com/gif.latex?a[n]~=~2*a[n-1]+1)
 
