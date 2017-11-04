@@ -20,8 +20,8 @@
 一是每读入一个新的 now 之前，把 pre 给替换成 now。下列程序采用的都是这种做法。  
 二是利用读入次数 K 的奇偶判断，若K为奇数，读入A1，与A2比较；若K为偶数，读入A2，与A1比较。有兴趣的同学可以去尝试下。  
 详细题解见下。
-
-##A - Free Cash<div id="A"></div>
+<div id="A"></div>
+##A - Free Cash
 ### 题目描述
 给定一系列时间hi,mi,求出最多有多少个时间相同。
 
@@ -60,8 +60,8 @@ int main()
 } 
 ```
 
-
-## B - Hulk <div id="B"></div>
+<div id="B"></div>
+## B - Hulk
 ### 题目描述
 给定 n ,根据规律输出  
 I hate it，  
@@ -98,8 +98,8 @@ int main()
 } 
 ```
 
-
-## C - Simple prefix compression<div id="C"></div>
+<div id="C"></div>
+## C - Simple prefix compression
 ### 题目描述
 设上一个字符串为a,当前的字符串b,若b从0处开始与a存在连续的公共部分，则该部分可用单个字符替换。  
 统计所有字符串的总长度。  
@@ -156,8 +156,8 @@ int main()
 	return 0; 
 } 
 ```
-
-## D - Fraction<div id="D"></div>
+<div id="D"></div>
+## D - Fraction
 ### 题目描述
 把n拆成两个互质的数a,b之和，同时要让 a / b < 1的前提下尽可能大。
 
@@ -189,8 +189,8 @@ int main()
 	return 0;
 }
 ```
-
-## E - Search for Pretty Integers<div id="E"></div>
+<div id="E"></div>
+## E - Search for Pretty Integers
 ### 题目描述
 给定两个数组，要你求出一个数K，它各位的数字要在这两个数组中的某一个至少出现过一次，并且要让K尽可能小。  
   
@@ -260,8 +260,8 @@ int main()
 	return 0;
 }
 ```
-
-## F - Borya's Diagnosis<div id="F"></div>
+<div id="F"></div>
+## F - Borya's Diagnosis
 ### 题目描述
 Borya需要按给定顺序看医生，每个医生有不同的出诊日期（出诊日期为 s , s+d , s+2*d , …）。  
 求看完最后一个医生的日期。
@@ -297,8 +297,8 @@ int main()
 	return 0;
 }
 ```
-
-## G - Game With Sticks<div id="G"></div>
+<div id="G"></div>
+## G - Game With Sticks
 ### 题目描述
 给定一个由纵向n，以及横向m根木棍，搭成的图。木棍交错形成了n*m个点。  
 两人轮流取一个点，把该点上的两根木棍移开。  
@@ -334,8 +334,8 @@ int main()
 	return 0;
 }
 ```
-
-## H - Vertical Histogram<div id="H"></div>
+<div id="H"></div>
+## H - Vertical Histogram
 ### 题目描述
 给定四行字符串，统计每个大写字母出现的次数，按给定格式输出。  
 出现几次，则 ' * ' 有多少个。
@@ -388,8 +388,8 @@ int main()
 	return 0;
 } 
 ```
-
-## I - I Wanna Be the Guy<div id="I"></div>
+<div id="I"></div>
+## I - I Wanna Be the Guy
 ### 题目描述
 小明小红一起玩 “ I Wanna Be the Guy ” 游戏，  
 但他们能通过的关卡各不相同。  
@@ -435,8 +435,8 @@ int main()
 	return 0;
 }
 ```
-
-## J - 字符串替换<div id="J"></div>
+<div id="J"></div>
+## J - 字符串替换
 ### 题目描述
 编写一个C程序实现将字符串中的所有"you"替换成"we"。  
 输入数据按行输入。
