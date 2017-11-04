@@ -2,6 +2,7 @@
 
 ### 作者：关东阳
 
+<div id="content"></div>
 
 - [A - Free Cash](#A)
 - [B - Hulk](#B)
@@ -63,6 +64,8 @@ int main()
 } 
 ```
 
+[回到目录](#content)
+
 <div id="B"></div>
 
 ## B - Hulk 
@@ -101,6 +104,9 @@ int main()
 	return 0;
 } 
 ```
+
+[回到目录](#content)
+
 <div id="C"></div>
 
 ## C - Simple prefix compression
@@ -160,6 +166,9 @@ int main()
 	return 0; 
 } 
 ```
+
+[回到目录](#content)
+
 <div id="D"></div>
 
 ## D - Fraction
@@ -194,6 +203,9 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
+
 <div id="E"></div>
 
 ## E - Search for Pretty Integers
@@ -266,6 +278,9 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
+
 <div id="F"></div>
 
 ## F - Borya's Diagnosis
@@ -276,7 +291,6 @@ Borya需要按给定顺序看医生，每个医生有不同的出诊日期（出
 ### Solution
 因为要按顺序见医生，所以对每一个要见的医生，ans一定要能大于他某一个出诊日期并且Borya要能够去看。  
 每次更新ans即可。
-
 ### 知识点
 模拟
 
@@ -304,6 +318,9 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
+
 <div id="G"></div>
 
 ## G - Game With Sticks
@@ -342,6 +359,9 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
+
 <div id="H"></div>
 
 ## H - Vertical Histogram
@@ -397,6 +417,9 @@ int main()
 	return 0;
 } 
 ```
+
+[回到目录](#content)
+
 <div id="I"></div>
 
 ## I - I Wanna Be the Guy
@@ -445,6 +468,9 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
+
 <div id="J"></div>
 
 ## J - 字符串替换
@@ -479,5 +505,7 @@ int main()
 	return 0;
 }
 ```
+
+[回到目录](#content)
 
 
