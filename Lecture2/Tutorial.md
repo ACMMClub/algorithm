@@ -3,14 +3,14 @@
 ### 作者：关东阳
 
 
-- [A - Free Cash](/#A)
-- [B - Hulk](/#B)
-- [C - Simple prefix compression](/#C)
-- [D - Fraction](/#D)
-- [E - Search for Pretty Integers](/#E)
-- [F - Borya's Diagnosis](/#F)
-- [G - Game With Sticks](/#G)
-- [H - Vertical Histogram](/#H)
+- [A - Free Cash](#A)
+- [B - Hulk](#B)
+- [C - Simple prefix compression](#C)
+- [D - Fraction](#D)
+- [E - Search for Pretty Integers](#E)
+- [F - Borya's Diagnosis](#F)
+- [G - Game With Sticks](#G)
+- [H - Vertical Histogram](#H)
 
 
 ## 总述
